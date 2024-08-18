@@ -1,0 +1,12 @@
+#index{
+    text-align: center;
+    font-family: sans-serif;
+}
+#problem{
+    font-size: 72px;
+    color: red;
+}
+#winner{
+    background-color: green;
+    font-size: 72px;
+}
