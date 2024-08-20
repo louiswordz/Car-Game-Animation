@@ -2,7 +2,9 @@ h1{
     text-align: center;
 }
 #racetrack{
+    margin: 40px 0;
     background: url("../Asset/grass.jpg") center left repeat-x;
+    background: url("../Asset/yellow_strip.jpg") center left repeat-x;
     transform: rotateY(-1);
     height: 330px;
     border-right: dashed 10px white;
@@ -68,4 +70,13 @@ input[type="button"]{
 }
 .button{
     text-align: center;
+}
+
+input#reset{
+    color: #444;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
