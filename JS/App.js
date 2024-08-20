@@ -19,10 +19,10 @@ function App (){
         //get the width of car 1 racetrack
         var raceTrackWidth1 = $(window).width() - carWidth1;
 
-           // get the width of car 1
+           // get the width of car 2
            var carWidth2 = $('#car2').width();
 
-           //get the width of car 1 racetrack
+           //get the width of car 2 racetrack
            var raceTrackWidth2 = $(window).width() - carWidth2;
 
         // generate a random # between 1 and 4000
