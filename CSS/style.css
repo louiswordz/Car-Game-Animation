@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+}
+#racetrack{
+    background: url("../Asset/grass.jpg") center left repeat-x;
+    transform: rotateY(-1);
+    height: 330px;
+    border-right: dashed 10px white;
+    box-sizing: border-box;
+}
+.car{
+    display: block;
+    position: relative;
+
+}
+#car1{
+    top: 30px;
+}
+#car2{
+    top: 100px;
+}
+
+#raceInfoContainer{
+    width: 80%;
+    margin: 40px auto 0;
+    background: #333;
+    height: 200px;
+    
+}
+
+#raceInfoContainer h2{
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    text-align: center;
+   
+}
+
+.raceInfo{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    width: 50%;
+    float: left;
+    left: 15px;
+}
+.raceInfo span{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+}
+
+#raceInfo1{
+    color: #b82f3e;
+}
+
+#raceInfo2{
+    color: #ffb82f;
+}
+input[type="button"]{
+    padding: 10px 20px;
+    border: 1px solid #444;
+    color: #fff;
+    margin-left: 15px;
+}
+.button{
+    text-align: center;
+}
