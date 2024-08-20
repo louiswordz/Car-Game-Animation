@@ -13,11 +13,17 @@ function App (){
       }
         
 
-        // get the width of the cars
-        var carWidth = $('#car1').width();
+        // get the width of car 1
+        var carWidth1 = $('#car1').width();
 
-        //get the width of the racetrack
-        var raceTrackWidth = $(window).width() - carWidth;
+        //get the width of car 1 racetrack
+        var raceTrackWidth1 = $(window).width() - carWidth1;
+
+           // get the width of car 1
+           var carWidth2 = $('#car2').width();
+
+           //get the width of car 1 racetrack
+           var raceTrackWidth2 = $(window).width() - carWidth2;
 
         // generate a random # between 1 and 4000
 
@@ -33,7 +39,7 @@ function App (){
         // Animate car 1
         $('#car1').animate({
           //move the car width of the race track
-          left : raceTrackWidth
+          left : raceTrackWidth1
         }, raceTime1, function(){
           // Animation complete
         })
@@ -47,7 +53,7 @@ function App (){
         // Animate car 2
         $('#car2').animate({
           //move the car width of the race track
-          left : raceTrackWidth +1
+          left : raceTrackWidth2 
         }, raceTime2, function(){
           // Animation complete
         })
