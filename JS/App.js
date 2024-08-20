@@ -42,28 +42,33 @@ function App (){
           left : raceTrackWidth1
         }, raceTime1, function(){
           // Animation complete
-        })
-
-        // Run a function
+          // Run a function
         checkIfComplete()
 
-        // give some text feedback in the race info box
-        $('#raceInfo1 span').text(`Finished in ${place} place and clocked in at ${raceTime1} milliseconds`)
+         // give some text feedback in the race info box
+         $('#raceInfo1 span').text(`Finished in ${place} place and clocked in at ${raceTime1} milliseconds`)
 
+
+        })
+
+        
+       
         // Animate car 2
         $('#car2').animate({
           //move the car width of the race track
           left : raceTrackWidth2 
         }, raceTime2, function(){
           // Animation complete
-        })
 
-        // Run a function
+          // Run a function
         checkIfComplete()
 
         // give some text feedback in the race info box
         $('#raceInfo2 span').text(`Finished in ${place} place and clocked in at ${raceTime2} milliseconds`)
 
+        })
+
+        
       });
       $('#reset').on('click', function(){
         $('.car').css('left','0')
