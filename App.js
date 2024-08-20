@@ -1,4 +1,20 @@
 function App (){
+
+  React.useEffect(() => {
+    $(function(){
+      $('button').click(function(){
+        $(this).css('borderRadius',"20px")
+      });
+
+      $('h1').hover(function(){
+        $(this).css("color","blue")
+      }, function(){
+        $(this).css("color","black")
+      })
+    })
+  }, []);
+
+
 const [state, setState] = React.useState({
   num1:2,
   num2 : 4,
