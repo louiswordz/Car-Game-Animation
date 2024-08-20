@@ -3,12 +3,13 @@ h1{
 }
 #racetrack{
     margin: 40px 0;
-    background: url("../Asset/grass.jpg") center left repeat-x;
-    background: url("../Asset/yellow_strip.jpg") center left repeat-x;
+    background: url("../Asset/bg.jpeg") center left repeat-x;
     transform: rotateY(-1);
     height: 330px;
     border-right: dashed 10px white;
     box-sizing: border-box;
+    opacity: .8;
+    width: 200%;
 }
 .car{
     display: block;
